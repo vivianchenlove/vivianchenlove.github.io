@@ -254,8 +254,8 @@
         color: $brand-color;
         display: block;
         font-family: "Playfair Display";
-        font-size: 44px;
-        text-align: center;
+        font-size: 34px;
+        text-align: left;
 
         @include media-query($on-laptop) {
             font-size: 36px;
@@ -267,7 +267,9 @@
     }
 }
 
-
+.pull-right {
+    float: right;
+}
 
 /**
  * Error pages

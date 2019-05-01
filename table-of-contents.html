@@ -4,14 +4,12 @@ layout: default
 
 <div class="table-of-contents">
 
-	<h1 class="page-heading">Table of Contents</h1>
+	<h1 class="page-heading">存档目录</h1>
 
 	<ul class="post-list">
 		{% for post in site.posts %}
 		<li>
-			<span class="post-meta" style="font-style: italic;">• {{ post.date | date: "%B %-d, %Y" }} •</span>
-
-			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h3>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a> <span class="pull-right">• {{ post.date | date: "%B %-d, %Y" }} •</span>		
 		</li>
 		{% endfor %}
 	</ul>
