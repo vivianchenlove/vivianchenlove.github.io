@@ -5,12 +5,12 @@ layout: default
 <div class="home">
 
 	<ul class="post-list">
-		{% for post in site.posts %}
+		{% for post in site.posts limit: 1 offset:0 %}
 		<li>
 			<article>
 				<header class="post-header">
 					<div>
-						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 					</div>
 
 					<h2>

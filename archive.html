@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="table-of-contents">
+
+	<h1 class="page-heading">目录</h1>
+
+	<ul class="post-list">
+		{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a> <span class="pull-right">• {{ post.date | date: "%b %-d, %Y" }} •</span>		
+		</li>
+		{% endfor %}
+	</ul>
+
+</div>
