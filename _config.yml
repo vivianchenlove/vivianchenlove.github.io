@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: For you, thousand times over.
-email: beta@vivianchen.love
+email: 
 description: > # this means to ignore newlines until "baseurl:"
-  佛说人生有八苦：生老病死，爱别离，恨长久，求不得，放不下。个中滋味，唯有自知。但对我，这一切都值得，都值得……
+  你一定要幸福，Vivian，永别了！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "vivianchen.love" # the base hostname & protocol for your site
 #github_username:    jekyll
