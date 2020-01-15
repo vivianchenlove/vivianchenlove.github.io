@@ -16,7 +16,7 @@
 title: For you, thousand times over.
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  你一定要幸福，Vivian，永别了！
+  没有我，你也要幸福，每天！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "vivianchen.love" # the base hostname & protocol for your site
 #github_username:    jekyll
